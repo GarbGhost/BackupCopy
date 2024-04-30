@@ -1,0 +1,470 @@
+@media (max-width: 1140px) {
+  .hero__container {
+    padding-top: 130px;
+    padding-bottom: 135px;
+  }
+
+  .hero__container--figure {
+    background:
+      url("../image/pic/figure-big@2x.png"),
+      url("../image/pic/figure-small@2x.png");
+    background-position: 96% 45.5%, 63.9% 23.3%;
+    background-size: 43%, 18%;
+    background-repeat: no-repeat;
+  }
+
+  .hero__title {
+    padding: 0;
+    margin-bottom: 16px;
+    font-size: 50px;
+  }
+
+  .hero__descr {
+    padding: 0 30px 0 0;
+  }
+
+  .advantages-top {
+    padding-bottom: 77px;
+  }
+
+  .advantages-wrapper {
+    padding: 0 38px 0 256px;
+  }
+
+  .advantages-wrapper--bg {
+    background-position: 3% 42%;
+    background-size: 212px 189px;
+  }
+
+  .advantages__bg {
+    padding: 93px 7px 0 0;
+    background-position: top left;
+  }
+
+  .advantages__descr {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+
+  .card {
+    padding-top: 75px;
+    padding-bottom: 49px;
+  }
+
+  .course {
+    padding-bottom: 80px;
+  }
+
+  .course-card--cinema {
+    background-image: -webkit-image-set(
+      url("../image/pic/cinema-330@1x.avif") type("image/avif") 1x,
+      url("../image/pic/cinema-330@2x.avif") type("image/avif") 2x,
+      url("../image/pic/cinema-330@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/cinema-330@2x.jpg") type("image/jpeg") 2x
+    );
+    background-image: image-set(
+      url("../image/pic/cinema-330@1x.avif") type("image/avif") 1x,
+      url("../image/pic/cinema-330@2x.avif") type("image/avif") 2x,
+      url("../image/pic/cinema-330@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/cinema-330@2x.jpg") type("image/jpeg") 2x
+    );
+  }
+
+  .course-card--blender {
+    background-image: -webkit-image-set(
+      url("../image/pic/blender-330@1x.avif") type("image/avif") 1x,
+      url("../image/pic/blender-330@2x.avif") type("image/avif") 2x,
+      url("../image/pic/blender-330@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/blender-330@2x.jpg") type("image/jpeg") 2x
+    );
+    background-image: image-set(
+      url("../image/pic/blender-330@1x.avif") type("image/avif") 1x,
+      url("../image/pic/blender-330@2x.avif") type("image/avif") 2x,
+      url("../image/pic/blender-330@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/blender-330@2x.jpg") type("image/jpeg") 2x
+    );
+  }
+
+  .course-card--max {
+    background-image: -webkit-image-set(
+      url("../image/pic/max-330@1x.avif") type("image/avif") 1x,
+      url("../image/pic/max-330@2x.avif") type("image/avif") 2x,
+      url("../image/pic/max-330@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/max-330@2x.jpg") type("image/jpeg") 2x
+    );
+    background-image: image-set(
+      url("../image/pic/max-330@1x.avif") type("image/avif") 1x,
+      url("../image/pic/max-330@2x.avif") type("image/avif") 2x,
+      url("../image/pic/max-330@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/max-330@2x.jpg") type("image/jpeg") 2x
+    );
+  }
+
+  .course-card--zbrush {
+    background-image: -webkit-image-set(
+      url("../image/pic/zbrash-330@1x.avif") type("image/avif") 1x,
+      url("../image/pic/zbrash-330@2x.avif") type("image/avif") 2x,
+      url("../image/pic/zbrash-330@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/zbrash-330@2x.jpg") type("image/jpeg") 2x
+    );
+    background-image: image-set(
+      url("../image/pic/zbrash-330@1x.avif") type("image/avif") 1x,
+      url("../image/pic/zbrash-330@2x.avif") type("image/avif") 2x,
+      url("../image/pic/zbrash-330@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/zbrash-330@2x.jpg") type("image/jpeg") 2x
+    );
+  }
+
+  .course-card__time {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+  }
+
+  .course-card__descr {
+    max-width: 276px;
+    margin-bottom: 29px;
+  }
+
+  .course-card__descr--blender {
+    max-width: 280px;
+  }
+
+  .button--course {
+    padding: 17px 56px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding: 0;
+  }
+
+  .header__container {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .logo {
+    padding-top: 25px;
+    margin: 0 auto;
+  }
+
+  .nav__list {
+    padding: 31px 0px;
+  }
+
+  .hero__container--figure {
+    background-image: none;
+  }
+
+  .hero__container {
+    padding-top: 77px;
+    padding-bottom: 136px;
+  }
+
+  .hero__descr {
+    padding: 0;
+  }
+
+  .advantages-top {
+    padding-bottom: 58px;
+  }
+
+  .advantages-wrapper {
+    padding: 0 30px 0 195px;
+  }
+
+  .advantages-wrapper--bg {
+    background-position: 4% 1%;
+    background-size: 149px 132px;
+  }
+
+  .advantages__bg {
+    padding: 93px 0 0 0;
+  }
+
+  .card {
+    padding-bottom: 73px;
+  }
+
+  .course-card--cinema {
+    background-image: -webkit-image-set(
+      url("../image/pic/cinema-240@1x.avif") type("image/avif") 1x,
+      url("../image/pic/cinema-240@2x.avif") type("image/avif") 2x,
+      url("../image/pic/cinema-240@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/cinema-240@2x.jpg") type("image/jpeg") 2x
+    );
+    background-image: image-set(
+      url("../image/pic/cinema-240@1x.avif") type("image/avif") 1x,
+      url("../image/pic/cinema-240@2x.avif") type("image/avif") 2x,
+      url("../image/pic/cinema-240@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/cinema-240@2x.jpg") type("image/jpeg") 2x
+    );
+  }
+
+  .course-card--blender {
+    background-image: -webkit-image-set(
+      url("../image/pic/blender-240@1x.avif") type("image/avif") 1x,
+      url("../image/pic/blender-240@2x.avif") type("image/avif") 2x,
+      url("../image/pic/blender-240@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/blender-240@2x.jpg") type("image/jpeg") 2x
+    );
+    background-image: image-set(
+      url("../image/pic/blender-240@1x.avif") type("image/avif") 1x,
+      url("../image/pic/blender-240@2x.avif") type("image/avif") 2x,
+      url("../image/pic/blender-240@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/blender-240@2x.jpg") type("image/jpeg") 2x
+    );
+  }
+
+  .course-card--max {
+    background-image: -webkit-image-set(
+      url("../image/pic/max-240@1x.avif") type("image/avif") 1x,
+      url("../image/pic/max-240@2x.avif") type("image/avif") 2x,
+      url("../image/pic/max-240@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/max-240@2x.jpg") type("image/jpeg") 2x
+    );
+    background-image: image-set(
+      url("../image/pic/max-240@1x.avif") type("image/avif") 1x,
+      url("../image/pic/max-240@2x.avif") type("image/avif") 2x,
+      url("../image/pic/max-240@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/max-240@2x.jpg") type("image/jpeg") 2x
+    );
+  }
+
+  .course-card--zbrush {
+    background-image: -webkit-image-set(
+      url("../image/pic/zbrash-240@1x.avif") type("image/avif") 1x,
+      url("../image/pic/zbrash-240@2x.avif") type("image/avif") 2x,
+      url("../image/pic/zbrash-240@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/zbrash-240@2x.jpg") type("image/jpeg") 2x
+    );
+    background-image: image-set(
+      url("../image/pic/zbrash-240@1x.avif") type("image/avif") 1x,
+      url("../image/pic/zbrash-240@2x.avif") type("image/avif") 2x,
+      url("../image/pic/zbrash-240@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/zbrash-240@2x.jpg") type("image/jpeg") 2x
+    );
+  }
+
+  .course-card__title {
+    line-height: 1.3;
+  }
+
+  .course-card__descr {
+    margin-bottom: 34px;
+  }
+
+  .course-card__title--max {
+    max-width: 168px;
+  }
+
+  .course-card__descr--cinema {
+    max-width: 179px;
+  }
+
+  .course-card__descr--blender {
+    max-width: 179px;
+  }
+
+  .course-card__descr--max {
+    max-width: 175px;
+  }
+
+  .course-card__descr--zbrush {
+    max-width: 179px;
+  }
+
+  .button--course {
+    padding: 17px 48px;
+  }
+}
+
+@media (max-width: 575px) {
+  .logo {
+    padding-top: 25px;
+  }
+
+  .nav {
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+  }
+
+  .nav__list {
+    padding: 26px 0px;
+    -ms-flex-wrap: unset;
+        flex-wrap: unset;
+  }
+
+  .hero__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .hero__title {
+    margin-bottom: 3px;
+    font-size: 30px;
+  }
+
+  .hero__descr {
+    margin-bottom: 46px;
+    font-size: 16px;
+    line-height: 1.3;
+  }
+
+  .button--hero {
+    padding: 19px 53px;
+    font-size: 16px;
+    max-width: 213px;
+    min-height: 60px;
+  }
+
+  .advantages-top {
+    padding-top: 51px;
+    padding-bottom: 50px;
+  }
+
+  .advantages-wrapper {
+    padding: 0 15px 0 15px;
+  }
+
+  .advantages-wrapper--bg {
+    background-position: 4% 1%;
+    background-size: 149px 119px;
+  }
+
+  .advantages-top__title {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .advantages-wrapper--bg {
+    background-image: none;
+  }
+
+  .advantages-list {
+    padding-top: 24px;
+    gap: 30px;
+  }
+
+  .advantages__bg {
+    padding: 0px 0px 0px 111px;
+  }
+
+  .advantages__descr {
+    line-height: 1.2;
+  }
+
+  .card {
+    padding-top: 49px;
+    padding-bottom: 47px;
+  }
+
+  .card__title {
+    font-size: 20px;
+  }
+
+  .card-person__name {
+    margin-bottom: 8px;
+  }
+
+  .course__title {
+    margin-bottom: 26px;
+    font-size: 20px;
+  }
+
+  .course {
+    padding-top: 46px;
+    padding-bottom: 50px;
+  }
+
+  .course__item {
+    min-height: 653px;
+  }
+
+  .course-card--cinema {
+    background-image: -webkit-image-set(
+      url("../image/pic/cinema-290@1x.avif") type("image/avif") 1x,
+      url("../image/pic/cinema-290@2x.avif") type("image/avif") 2x,
+      url("../image/pic/cinema-290@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/cinema-290@2x.jpg") type("image/jpeg") 2x
+    );
+    background-image: image-set(
+      url("../image/pic/cinema-290@1x.avif") type("image/avif") 1x,
+      url("../image/pic/cinema-290@2x.avif") type("image/avif") 2x,
+      url("../image/pic/cinema-290@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/cinema-290@2x.jpg") type("image/jpeg") 2x
+    );
+  }
+
+  .course-card--blender {
+    background-image: -webkit-image-set(
+      url("../image/pic/blender-290@1x.avif") type("image/avif") 1x,
+      url("../image/pic/blender-290@2x.avif") type("image/avif") 2x,
+      url("../image/pic/blender-290@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/blender-290@2x.jpg") type("image/jpeg") 2x
+    );
+    background-image: image-set(
+      url("../image/pic/blender-290@1x.avif") type("image/avif") 1x,
+      url("../image/pic/blender-290@2x.avif") type("image/avif") 2x,
+      url("../image/pic/blender-290@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/blender-290@2x.jpg") type("image/jpeg") 2x
+    );
+  }
+
+  .course-card--max {
+    background-image: -webkit-image-set(
+      url("../image/pic/max-290@1x.avif") type("image/avif") 1x,
+      url("../image/pic/max-290@2x.avif") type("image/avif") 2x,
+      url("../image/pic/max-290@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/max-290@2x.jpg") type("image/jpeg") 2x
+    );
+    background-image: image-set(
+      url("../image/pic/max-290@1x.avif") type("image/avif") 1x,
+      url("../image/pic/max-290@2x.avif") type("image/avif") 2x,
+      url("../image/pic/max-290@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/max-290@2x.jpg") type("image/jpeg") 2x
+    );
+  }
+  
+  .course-card--zbrush {
+    background-image: -webkit-image-set(
+      url("../image/pic/zbrash-290@1x.avif") type("image/avif") 1x,
+      url("../image/pic/zbrash-290@2x.avif") type("image/avif") 2x,
+      url("../image/pic/zbrash-290@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/zbrash-290@2x.jpg") type("image/jpeg") 2x
+    );
+    background-image: image-set(
+      url("../image/pic/zbrash-290@1x.avif") type("image/avif") 1x,
+      url("../image/pic/zbrash-290@2x.avif") type("image/avif") 2x,
+      url("../image/pic/zbrash-290@1x.jpg") type("image/jpeg") 1x,
+      url("../image/pic/zbrash-290@2x.jpg") type("image/jpeg") 2x
+    );
+  }
+
+  .course-card__descr {
+    margin-bottom: 82px;
+    max-width: clamp(230px, 94%, 450px);
+  }
+
+  .course-card__title--cinema {
+    max-width: 150px;
+  }
+
+  .course-card__title--max {
+    max-width: 150px;
+  }
+
+  .button--course {
+    padding: 20px 56px;
+  }
+
+}
